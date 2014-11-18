@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding-top: 30px;
+        }
+    </style>
+    <script src="http://code.angularjs.org/1.2.6/angular.js"></script>
+    <script src="app.js"></script>
+</head>
+
+<body ng-app="validationApp" ng-controller="mainController">
+    <div class="page-header"><h1>Angular Js Validations</h1></div>
+    <form name="validationform" ng-submit="userform(validationform.$valid)"  novalidate>
+        <div class="form-group" ng-class="has-error">
+            <label>Name</label>
+            <input type="text" required name="name" ng-model="name" class="form-control" />
+            <p ng-show="validationform.name.$invalid && !validationform.name.pristine">You name is required.</p>
+        </div>
+        <div class="form-group" ng-class="has-error">
+            <label>User Name</label>
+            <input type="text" ng-minlength="3" ng-maxlength="8" name="username" ng-model="username" class="form-control" ng-class="has-error" />
+            <p ng-show="validationform.username.$error.minlength" class="help-block">Username is too short.</p>
+            <p ng-show="validationform.username.$error.maxlength" class="help-block">Username is too long.</p>
+        </div>
+        <div class="form-group">
+            <label>E-mail</label>
+            <input type="email" name="email" ng-model="email" class="form-control" />
+            <p ng-show="validationform.email.$invalid && !userForm.email.$pristine" class="help-block">Enter a valid email.</p>
+        </div>
+        <button type="submit" class="btn btn-primary" name="submit"  value="Submit" ng-disabled="validationform.$invalid">Submit</button>
+    </form>
+
+</body>
+</html>

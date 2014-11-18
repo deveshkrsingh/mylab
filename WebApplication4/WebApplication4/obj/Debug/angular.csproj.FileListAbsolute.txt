@@ -1,0 +1,12 @@
+c:\users\devesh-k\documents\visual studio 2013\Projects\WebApplication4\WebApplication4\bin\WebApplication4.dll.config
+c:\users\devesh-k\documents\visual studio 2013\Projects\WebApplication4\WebApplication4\bin\WebApplication4.dll
+c:\users\devesh-k\documents\visual studio 2013\Projects\WebApplication4\WebApplication4\bin\WebApplication4.pdb
+c:\users\devesh-k\documents\visual studio 2013\Projects\WebApplication4\WebApplication4\obj\Debug\angular.csprojResolveAssemblyReference.cache
+c:\users\devesh-k\documents\visual studio 2013\Projects\WebApplication4\WebApplication4\obj\Debug\WebApplication4.dll
+c:\users\devesh-k\documents\visual studio 2013\Projects\WebApplication4\WebApplication4\obj\Debug\WebApplication4.pdb
+C:\Users\Devesh\Desktop\WebApplication4\WebApplication4\bin\WebApplication4.dll.config
+C:\Users\Devesh\Desktop\WebApplication4\WebApplication4\bin\WebApplication4.dll
+C:\Users\Devesh\Desktop\WebApplication4\WebApplication4\bin\WebApplication4.pdb
+C:\Users\Devesh\Desktop\WebApplication4\WebApplication4\obj\Debug\angular.csprojResolveAssemblyReference.cache
+C:\Users\Devesh\Desktop\WebApplication4\WebApplication4\obj\Debug\WebApplication4.dll
+C:\Users\Devesh\Desktop\WebApplication4\WebApplication4\obj\Debug\WebApplication4.pdb
